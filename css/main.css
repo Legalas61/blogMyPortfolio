@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+    font-family: DevBlog;
+    src: url(fonts/arnamu.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: DevBlog;
+    src: url(fonts/arnamub.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: DevBlog;
+    src: url(fonts/arnamubi.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: DevBlog;
+    src: url(fonts/arnamui.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+body{
+  background-color: #191919;
+  color: #ccc;
+  font-family: "DevBlog", arial, sans-serif;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  align-items: center;
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+nav a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+nav a:hover{
+  border-bottom: 1px solid;
+}
+nav a:nth-child(3) {
+  border: none;
+}
+
+nav img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.title__header{
+  display: inline-block;
+  margin-left: 6%;
+  width: 20%;
+}
+
+h1.hiWord{
+  color: #fff;
+  width: 100%;
+  text-align: left;
+  padding-top: 5%;
+  font-size: 1.6rem;
+  margin-bottom: 6%;
+}
+
+/*  */
+
+.contant {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin-top: 2%;
+  width: 100%;
+  background-color: #191919;
+}
+
+.contant h2{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  color: #ccc;
+  margin: 2.5% 0;
+}
+.contant h2:nth-child(1){
+  margin: -7% 0 2.5%;
+}
+.s{flex-basis: 25%;flex-grow:1}
+.xl{flex-basis: 50%;flex-grow:2}
+.xl img {margin: 0 auto; display: block;}
+.xxl {flex-basis: 100%;flex-grow:3}
+.xxl img {flex-basis: 100%; float: left;}
+.item {
+  align-self: top;
+  box-sizing: border-box;
+  border-color: #1D1D1D;
+  border-style: solid;
+  padding: 1.5%;
+  border-top: 0;
+  background-color: #242424;
+}
+.item h3 a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+.item span {
+  width: 100%;
+}
